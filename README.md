@@ -1,7 +1,7 @@
 # Map State to Props Continued
 
 ## Introduction
-
+ 
 When we last left off, we successfully used our __createStore()__ method, and
 were able have our application re-render through the rather confusing
 `connect()` method and __Provider__ component. Whenever something in

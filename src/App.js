@@ -4,6 +4,10 @@ import './App.css';
 
 
 class App extends Component {
+  
+    // f = () => console.log(this.props)
+  
+    // f()
 
   handleOnClickItems() {
     this.props.dispatch({
@@ -32,6 +36,7 @@ class App extends Component {
     );
   }
 }
+
 
 const mapStateToProps = (state) => {
   debugger;
